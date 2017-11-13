@@ -1,14 +1,14 @@
 # hostname (and path) to the root eg. http://spf13.com/
-baseurl = "http://www.example.com"
+baseurl = "https://webstazka.github.io/"
 
 # Site title
-title = "sitename"
+title = "Stázka Teplá"
 
 # Copyright
-copyright = "(c) 2015 yourname."
+copyright = "(c)"
 
 # Language
-languageCode = "en-EN"
+languageCode = "cs-CZ"
 
 # SES friendly url:s
 canonifyurls = true
@@ -18,14 +18,14 @@ canonifyurls = true
 metaDataFormat = "toml"
 
 # Theme to use (located in /themes/THEMENAME/)
-# theme = "hugo-bootstrap"
+theme = "hugo-bootstrap"
 
 # Pagination
 paginate = 10
 paginatePath = "page"
 
 # Enable Disqus integration
-disqusShortname = "your_disqus_shortname"
+#disqusShortname = "your_disqus_shortname"
 
 [permalinks]
     post = "/:year/:month/:day/:slug/"
@@ -57,7 +57,7 @@ disqusShortname = "your_disqus_shortname"
     highlight = "default"
 
     # Google Analytics.
-    googleAnalytics = "Your Google Analytics tracking code"
+    googleAnalytics = "UA-XXX"
 
     # Sidebar social links.
     github = "enten/hugo-boilerplate" # Your Github profile ID
